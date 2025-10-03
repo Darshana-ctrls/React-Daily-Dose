@@ -12,6 +12,8 @@ import Example7 from './useEffect_Hook/Example7'
 import Example8 from './useEffect_Hook/Example8'
 import Example9 from './Routing/Example9'
 import Example10 from './Routing/Example10'
+import Example11 from './Event_handling/Example11'
+import Example12 from './Event_handling/Example12'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +29,9 @@ function App() {
       {/* <Example7></Example7> */}
       {/* <Example8></Example8> */}
       {/* <Example9></Example9> */}
-      <Example10></Example10>
+      {/* <Example10></Example10> */}
+      <Example11></Example11>
+      {/* <Example12></Example12> */}
     </>
   )
 }
