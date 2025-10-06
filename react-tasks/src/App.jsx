@@ -14,6 +14,10 @@ import Example9 from './Routing/Example9'
 import Example10 from './Routing/Example10'
 import Example11 from './Event_handling/Example11'
 import Example12 from './Event_handling/Example12'
+import Example13 from './Conditional_Rendering/Example13'
+import Example14 from './ListandKeys/Example14'
+import Example15 from './ListandKeys/Example15'
+import Example16 from './ListandKeys/Example16'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,8 +34,12 @@ function App() {
       {/* <Example8></Example8> */}
       {/* <Example9></Example9> */}
       {/* <Example10></Example10> */}
-      <Example11></Example11>
+      {/* <Example11></Example11> */}
       {/* <Example12></Example12> */}
+      {/* <Example13></Example13> */}
+      {/* <Example14></Example14> */}
+      {/* <Example15></Example15> */}
+      <Example16></Example16>
     </>
   )
 }
