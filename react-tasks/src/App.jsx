@@ -18,6 +18,7 @@ import Example13 from './Conditional_Rendering/Example13'
 import Example14 from './ListandKeys/Example14'
 import Example15 from './ListandKeys/Example15'
 import Example16 from './ListandKeys/Example16'
+import Example17 from './Forms&Uncontrolled_Components/Example17'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -39,7 +40,8 @@ function App() {
       {/* <Example13></Example13> */}
       {/* <Example14></Example14> */}
       {/* <Example15></Example15> */}
-      <Example16></Example16>
+      {/* <Example16></Example16> */}
+      <Example17></Example17>
     </>
   )
 }
